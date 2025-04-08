@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educators</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+</head>
+<body>
+        <!-- Nav session starts -->
+        <nav>
+            <div class="logo" style="display: flex;flex-wrap: wrap;">
+                <img src="./images/online-learning (1).png" height="70px" alt=""><br>
+                <p style="color: whitesmoke; font-size: larger;margin-top: 20px;">Educater's</p>
+            </div>
+              <ul id="menulist">
+                <li>
+                <div class="dropdown1">
+                    <button onclick="myFunction1()" class="dropbtn1"> <a href="./courses.html">Courses</a></button>
+                    <div id="myDropdown1" class="dropdown-content1">
+                      <a href="#">Java</a>
+                      <a href="#">Php</a>
+                      <a href="#">Html</a>
+                      <a href="#">Css</a>
+                      <a href="#">Js</a>
+                      <a href="#">Explore more -></a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown2">
+                    <button onclick="myFunction2()" class="dropbtn2"> Mentors  </button>
+                    <div id="myDropdown2" class="dropdown-content2">
+                      <a href="./mentor.html">Yash</a>
+                      <a href="./mentor.html">Krupa</a>
+                      <a href="./mentor.html">Jeet</a>
+                      <a href="./mentor.html">Manas</a>
+                      <a href="./mentor.html">Premraj</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown3">
+                    <button onclick="myFunction3()" class="dropbtn3">Lectures</button>
+                    <div id="myDropdown3" class="dropdown-content3">
+                      <a href="./lecture.html">Free</a>
+                      <a href="./lecture.html">Paid</a>
+                      <a href="./lecture.html">Explore</a>
+                    </div>
+                  </div>
+                </li>
+                <div class="dropdown4">
+                  <button onclick="myFunction4()" class="dropbtn4"> 
+                    <a class="mobilelink" href="./login.html" style="display: none;"> Login </a>
+                    <a class="desktoplink" href="./login.html"> Login </a>
+                  </button>
+                  <div id="myDropdown4" class="dropdown-content4">
+                    <a href="#">Student</a>
+                    <a href="#">Mentor</a>
+                    <a href="#">Admin</a>
+                  </div>
+                </div>
+                <li><button><a href="./dash.html">Dashboard</a></button></li>
+                </ul>
+            <div class="menu-icon">
+              <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+        <!-- Nav session ends  -->
+
+        <!-- Courses SESSION  STARTS -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-heading">Our<span> Course'</span>s</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/html.jpg" alt="work images">
+                        <div class="layer">
+                            <h3>HTML5 </h3>
+                            <p>The structure of a webpage. It defines elements like headings, paragraphs, links, images, and more.</p>
+                            <a href="./courses.html"> Explore More</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/css.jpg" alt="work images">
+                        <div class="layer">
+                            <h3>CSS</h3>
+                            <p>The style of a webpage. It controls layout, colors, fonts, spacing, and overall visual presentation.</p>
+                            <a href="./courses.html"> Explore More</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/js.jpg" height="290px" alt ="work images">
+                        <div class="layer">
+                            <h3>JS</h3>
+                            <p>The behavior of a webpage. It makes pages interactive—handling things like clicks, animations, form validation, and dynamic content updates.</p>
+                            <a href="./courses.html">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="./courses.html" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- Courses SESSION  ENDS -->
+    <!-- Teacher SESSION STARTS -->
+    <div id="services">
+        <div class="container">
+            <Services class="sub-heading"><span>Our</span> Facultie'<span>s</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Yash Bachwani</h2>
+                        <p>A dedicated educator with over 5 years of experience teaching web development. Skilled in HTML, CSS, JavaScript, and modern frameworks, they have guided countless students from beginner to advanced levels. Known for their clear explanations, hands-on approach, and passion for helping others build real-world web projects.</p>
+                        <a href="./mentor.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Jeet Pitale</h2>
+                        <p>A highly skilled cybersecurity teacher and IIT graduate, known for blending deep technical knowledge with real-world experience. Passionate about making complex cybersecurity concepts simple and engaging for students of all levels. </p>
+                        <a href="./mentor.html">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Anusha Thakkar </h2>
+                        <p>An experienced AI/ML educator with over 2 years of international teaching experience, specializing in making complex concepts easy to understand. Passionate about empowering students with practical skills in artificial intelligence and machine learning across diverse cultural and academic environments</p>
+                        <a href="./mentor.html">Learn more</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+   <!-- Teacher SESSION ENDS -->
+   <!-- CONTACT SESSION STARTS -->
+    <br><br><br>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> codecrafters143@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9662433151,9558611538</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/9662433151"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/yash_bachwani/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/YashBachwani"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yash-bachwani-344307272/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="" placeholder="Enter your Name" required>
+                    <input type="email" name="Email" id="" placeholder="Enter your Email" required>
+                    <textarea name="Message" id="" rows="6" placeholder="Enter your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="mssg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright's Ⓒ by Yash Bachwani.</p>
+    </div>
+</div>
+<!-- CONTACT SESSION ENDS -->
+
+         <!-- Preloader Session Starts -->
+         <div class="loading-page">
+            <div class="name-container">
+              <div class="logo-name">Welcome To </div>
+          </div>
+            <div class="letters">
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                
+                <path d="M64 32C28.7 32 0 60.7 0 96L0 256 0 416c0 35.3 28.7 64 64 64l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 416l0-128 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 224 64 96l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M0 96C0 60.7 28.7 32 64 32l96 0c123.7 0 224 100.3 224 224s-100.3 224-224 224l-96 0c-35.3 0-64-28.7-64-64L0 96zm160 0L64 96l0 320 96 0c88.4 0 160-71.6 160-160s-71.6-160-160-160z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M32 32c17.7 0 32 14.3 32 32l0 224c0 70.7 57.3 128 128 128s128-57.3 128-128l0-224c0-17.7 14.3-32 32-32s32 14.3 32 32l0 224c0 106-86 192-192 192S0 394 0 288L0 64C0 46.3 14.3 32 32 32z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M329.1 142.9c-62.5-62.5-155.8-62.5-218.3 0s-62.5 163.8 0 226.3s155.8 62.5 218.3 0c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3c-87.5 87.5-221.3 87.5-308.8 0s-87.5-229.3 0-316.8s221.3-87.5 308.8 0c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M221.5 51.7C216.6 39.8 204.9 32 192 32s-24.6 7.8-29.5 19.7l-120 288-40 96c-6.8 16.3 .9 35 17.2 41.8s35-.9 41.8-17.2L93.3 384l197.3 0 31.8 76.3c6.8 16.3 25.5 24 41.8 17.2s24-25.5 17.2-41.8l-40-96-120-288zM264 320l-144 0 72-172.8L264 320z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l128 0 0 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-352 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 32 32 32z"/>
+            </svg>
+            <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                
+              <path d="M64 32C28.7 32 0 60.7 0 96L0 256 0 416c0 35.3 28.7 64 64 64l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 416l0-128 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 224 64 96l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32z"/>
+          </svg>
+          <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+            <path d="M64 32C28.7 32 0 60.7 0 96L0 288 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 95.3 0L261.8 466.4c10.1 14.5 30.1 18 44.6 7.9s18-30.1 7.9-44.6L230.1 309.5C282.8 288.1 320 236.4 320 176c0-79.5-64.5-144-144-144L64 32zM176 256L64 256 64 96l112 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z"/>
+          </svg>
+          <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+            <path d="M99.1 105.4C79 114 68.2 127.2 65.2 144.8c-2.4 14.1-.7 23.2 2 29.4c2.8 6.3 7.9 12.4 16.7 18.6c19.2 13.4 48.3 22.1 84.9 32.5c1 .3 1.9 .6 2.9 .8c32.7 9.3 72 20.6 100.9 40.7c15.7 10.9 29.9 25.5 38.6 45.1c8.8 19.8 10.8 42 6.6 66.3c-7.3 42.5-35.3 71.7-71.8 87.3c-35.4 15.2-79.1 17.9-123.7 10.9l-.2 0s0 0 0 0c-24-3.9-62.7-17.1-87.6-25.6c-4.8-1.7-9.2-3.1-12.8-4.3C5.1 440.8-3.9 422.7 1.6 405.9s23.7-25.8 40.5-20.3c4.9 1.6 10.2 3.4 15.9 5.4c25.4 8.6 56.4 19.2 74.4 22.1c36.8 5.7 67.5 2.5 88.5-6.5c20.1-8.6 30.8-21.8 33.9-39.4c2.4-14.1 .7-23.2-2-29.4c-2.8-6.3-7.9-12.4-16.7-18.6c-19.2-13.4-48.3-22.1-84.9-32.5c-1-.3-1.9-.6-2.9-.8c-32.7-9.3-72-20.6-100.9-40.7c-15.7-10.9-29.9-25.5-38.6-45.1c-8.8-19.8-10.8-42-6.6-66.3l31.5 5.5L2.1 133.9C9.4 91.4 37.4 62.2 73.9 46.6c35.4-15.2 79.1-17.9 123.7-10.9c13 2 52.4 9.6 66.6 13.4c17.1 4.5 27.2 22.1 22.7 39.2s-22.1 27.2-39.2 22.7c-11.2-3-48.1-10.2-60.1-12l4.9-31.5-4.9 31.5c-36.9-5.8-67.5-2.5-88.6 6.5z"/>
+          </svg>
+        </div>
+            
+        </div>
+        <!-- Preloader Session Ends -->
+
+      <!-- Customized Cursor Session Starts -->
+      <div class="cursor-dot" data-cursor-dot ></div>
+      <div class="cursor-outline" data-cursor-outline ></div> 
+    <!-- Customized Cursor Session Ends -->
+  
+      
+      
+        
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./script.js"></script>
+<!-- Chat Box -->
+
+
+<script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+    configUrl: "https://files.bpcontent.cloud/2024/12/09/13/20241209133522-SWGIUX3N.json",
+  });
+</script>
+
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://files.bpcontent.cloud/2024/12/09/13/20241209133522-WOF7UYCU.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

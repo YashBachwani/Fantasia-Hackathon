@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        *{
+            overflow-x: clip;
+        }
+        /* Cursor Session Starts  */
+.cursor-dot{
+    width: 15px;
+    height:15px;
+    background-color: #68b9ee;
+  }
+  .cursor-outline{
+    width:30px;
+    height:30px;
+    border:2px solid #68b9ee;
+  }
+  .cursor-dot,.cursor-outline{
+    position:fixed;
+    top:0;
+    left:0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index:1;
+    pointer-events: none;
+  }
+  /* Cursor Session Ends */
+    </style>
+</head>
+<body style="background-color: #c9d6ff;;">
+    <center><h1 class="mt-5" style="font-size:35px"><b><i style="line-height: 1; color: rgb(30, 48, 80);">------</i> COURSE'S <i style="line-height: 1; color: rgb(30, 48, 80);">------</i></b></h1></center>
+    <div data-aos="fade"
+    data-aos-duration="3000">
+    <div class="cardsmain" style="display:flex; flex-wrap: wrap; gap:30px; justify-content: space-evenly; margin-top: 20px;">
+        <div class="card rounded" style="width:25rem;">
+        <img src="./images/html.jpg" class="card-img-top rounded-top" height="250px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">HTML5</h5>
+          <p class="card-text">
+            ✅ Purpose:
+            HTML is the markup language used to structure content on the web. Every website you visit is built on HTML.
+            <br><br>
+            🧱 Core Features:
+            Elements and Tags: Tags like &lt; div &gt;, &lt; header &gt;, &lt; footer &gt;, &lt; p &gt;, and &lt; a &gt;
+             define different parts of a page.
+            
+            Semantic HTML: Tags like &lt; article &gt;, &lt; section &gt;, and &lt; nav &gt; give meaning to the content and help with SEO and accessibility.
+            
+            Forms & Input: HTML includes &lt; form &gt;, &lt; input &gt;, &lt; textarea &gt;, and others to capture user data.
+            
+            Media Support: Embeds images, audio, and videos using tags like &lt; img &gt;, &lt; video &gt;, and &lt; audio &gt;.
+            <br><br>
+            🌐 Used For:
+            Building the skeleton of web pages
+            
+            Creating links between pages
+            
+            Embedding content like images, videos, and forms
+        </p>
+        </div>
+        <h5 class="card-title">&nbsp; &nbsp;Prices</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rs:- 999/year</li>
+          <li class="list-group-item">Rs:- 679/half-year</li>
+          <li class="list-group-item">Rs:- 479/quaters</li>
+          <li class="list-group-item">Rs:- 349/month</li>
+          <li class="list-group-item">Rs:- 209/week</li>
+          <li class="list-group-item">Rs:- 149/lecture</li>
+        </ul>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Course Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/css.jpg" class="card-img-top rounded-top" height="250px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">
+            ✅ Purpose:
+            CSS controls the look and feel of a website—colors, fonts, layouts, animations, and responsiveness.
+            <br><br>
+            🎨 Core Features:
+            Selectors and Properties: Targets HTML elements and styles them (color, margin, padding, font-size).
+            
+            Box Model: Every element is a box with content, padding, border, and margin.
+            
+            Positioning: Layout systems like Flexbox and Grid help place elements precisely.
+            
+            Responsive Design: Media queries allow designs to adapt to different screen sizes.
+            
+            Animations and Transitions: Create visual effects without JavaScript.
+            <br><br>
+            🧑‍🎨 Used For:
+            Making web apps beautiful and user-friendly
+            
+            Designing responsive layouts for mobile and desktop
+            
+            Creating interactive animations            
+        </p>
+        </div>
+        <h5 class="card-title">&nbsp; &nbsp;Prices</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rs:- 1499/year</li>
+          <li class="list-group-item">Rs:- 1099/half-year</li>
+          <li class="list-group-item">Rs:- 949/quaters</li>
+          <li class="list-group-item">Rs:- 599/month</li>
+          <li class="list-group-item">Rs:- 399/week</li>
+          <li class="list-group-item">Rs:- 199/lecture</li>
+        </ul>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Course Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/js.jpg " class="card-img-top rounded-top" height="250px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JS</h5>
+          <p class="card-text">
+            ✅ Purpose:
+            JavaScript is a scripting language that lets you add interactivity, logic, and dynamic behavior to web pages.
+            <br><br>
+            ⚙️ Core Features:
+            DOM Manipulation: Access and modify HTML elements (document.querySelector, innerHTML, etc.)
+            
+            Events: Handle user actions like clicks, scrolls, and form submissions.
+            
+            Functions & Objects: Core of writing reusable and structured code.
+            
+            APIs: Access browser features like geolocation, storage, and fetch data using HTTP requests.
+            
+            ES6+ Features: Modern JavaScript includes let/const, arrow functions, classes, promises, async/await.
+            <br><br>
+            🖥️ Used For:
+            Creating dynamic web applications
+            
+            Handling user input, form validation, and real-time updates
+            
+            Communicating with backends via APIs
+            
+            Powering both frontend (with React, Vue) and backend (with Node.js)
+            </p>
+        </div>
+        <h5 class="card-title">&nbsp; &nbsp;Prices</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rs:- 1799/year</li>
+          <li class="list-group-item">Rs:- 1349/half-year</li>
+          <li class="list-group-item">Rs:- 849/quarters</li>
+          <li class="list-group-item">Rs:- 499/month</li>
+          <li class="list-group-item">Rs:- 229/week</li>
+          <li class="list-group-item">Rs:- 109/lecture</li>
+        </ul>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Course Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/react.jpg" class="card-img-top rounded-top" height="250px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">React</h5>
+          <p class="card-text">
+            ✅ Purpose:
+            React is a JavaScript library developed by Meta for building fast, scalable, and interactive user interfaces.
+            <br><br>
+            ⚛️ Core Features:
+            Components: Reusable, modular pieces of UI (&lt;Navbar /&gt;, &lt;Button /&gt; , &lt;Form /&gt;)
+            
+            JSX: A syntax extension that lets you write HTML-like code within JavaScript.
+            
+            Virtual DOM: Efficiently updates only the parts of the page that changed.
+            
+            Hooks: Built-in functions like useState, useEffect help manage state and side effects.
+            
+            Props and State: Mechanisms for passing data and managing component behavior.
+            <br><br>
+            🌍 Used For:
+            Building Single Page Applications (SPAs)
+            
+            Developing complex UI with reusable components
+            
+            Powering modern web apps like Facebook, Instagram, Airbnb, Netflix
+        </p>
+        </div>
+        <h5 class="card-title">&nbsp; &nbsp;Prices</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rs:- 999/year</li>
+          <li class="list-group-item">Rs:- 749/half-year</li>
+          <li class="list-group-item">Rs:- 499/quater</li>
+          <li class="list-group-item">Rs:- 279/month</li>
+          <li class="list-group-item">Rs:- 149/week</li>
+          <li class="list-group-item">Rs:- 99/lecture</li>
+        </ul>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Course Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/python.png" class="card-img-top rounded-top" height="250px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Python</h5>
+          <p class="card-text">
+            ✅ Purpose:
+            Python is a general-purpose, high-level programming language known for its readability and versatility.
+            <br><br>
+            🧠 Core Features:
+            Clean Syntax: Easy to write and understand—great for beginners and pros.
+            
+            Extensive Libraries: NumPy, Pandas, Matplotlib (data), TensorFlow, PyTorch (ML), Flask/Django (web), etc.
+            
+            Interpreted Language: Runs line-by-line, helpful for debugging.
+            
+            Object-Oriented and Functional: Supports multiple programming styles.
+            <br><br>
+            💡 Used For:
+            AI & Machine Learning: Train models, process data, automate tasks
+            
+            Data Analysis & Visualization: Analyze big data and present it clearly
+            
+            Web Development: Backend services using frameworks like Flask and Django
+            
+            Automation & Scripting: Automate repetitive tasks, build tools
+            
+            Game Development, IoT, Cybersecurity, and more
+            
+
+            
+            </p>
+        </div>
+        <h5 class="card-title">&nbsp; &nbsp;Prices</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Rs:- 1449/year</li>
+          <li class="list-group-item">Rs:- 1099/half-year</li>
+          <li class="list-group-item">Rs:- 849/quarters</li>
+          <li class="list-group-item">Rs:- 499/month</li>
+          <li class="list-group-item">Rs:- 299/week</li>
+          <li class="list-group-item">Rs:- 149/lecture</li>
+        </ul>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Course Achivements</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <center>
+        <p style="margin-top: 50px;align-content: end;">...More Subjects will Added in the future...</p>
+    </center>
+          <!-- Customized Cursor Session Starts -->
+          <div class="cursor-dot" data-cursor-dot ></div>
+          <div class="cursor-outline" data-cursor-outline ></div> 
+        <!-- Customized Cursor Session Ends -->
+          
+    </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  // Custome Cursor 
+const cursorDot = document.querySelector("[data-cursor-dot");
+const cursorOutline = document.querySelector("[data-cursor-outline");
+
+window.addEventListener("mousemove",function(e){
+  const posX = e.clientX;
+  const posY = e.clientY;
+  
+  cursorDot.style.left = `${posX}px`;
+  cursorDot.style.top = `${posY}px`;
+
+  // cursorOutline.style.left = `${posX}px`;
+  // cursorOutline.style.top = `${posY}px`;
+
+  cursorOutline.animate({
+      left : `${posX}px`,
+      top: `${posY}px`
+  },{duration:500, fill:"forwards"})
+
+});
+
+</script>
+
+</html>

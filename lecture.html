@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educater's - Recorded & Live Sessions</title>
+    <link rel="stylesheet" href="./lecture.css">
+    <script defer src="lecture.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Educater's Sessions</h1>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="recorded">Recorded Sessions</button>
+            <button class="tab-btn" data-tab="live">Live Lectures</button>
+        </div>
+        <div class="tab-content" id="recorded">
+            <h2>Recorded Sessions</h2>
+            <div class="video-grid">
+                <iframe src="https://www.youtube.com/embed/xyz123" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/abc456" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="tab-content hidden" id="live">
+            <h2>Live Lectures</h2>
+            <p>Join our live lectures below:</p>
+            <a href="https://us05web.zoom.us/j/5434919451?pwd=pCPaJcVwhZnSQASK5XgSD8It8KzowU.1" class="live-link">Join Live Session</a>
+        </div>
+    </div>
+          <!-- Customized Cursor Session Starts -->
+          <div class="cursor-dot" data-cursor-dot ></div>
+          <div class="cursor-outline" data-cursor-outline ></div> 
+        <!-- Customized Cursor Session Ends -->
+      
+          
+    
+</body>
+</html>

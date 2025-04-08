@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        *{
+            overflow-x: clip;
+        }
+        /* Cursor Session Starts  */
+.cursor-dot{
+    width: 15px;
+    height:15px;
+    background-color: #68b9ee;
+  }
+  .cursor-outline{
+    width:30px;
+    height:30px;
+    border:2px solid #68b9ee;
+  }
+  .cursor-dot,.cursor-outline{
+    position:fixed;
+    top:0;
+    left:0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index:1;
+    pointer-events: none;
+  }
+  /* Cursor Session Ends */
+    </style>
+</head>
+<body style="background-color: #c9d6ff;;">
+    <center><h1 class="mt-5" style="font-size:35px"><b><i style="line-height: 1; color: rgb(30, 48, 80);">------</i> MENTOR'S <i style="line-height: 1; color: rgb(30, 48, 80);">------</i></b></h1></center>
+    <div data-aos="fade"
+    data-aos-duration="3000">
+    <div class="cardsmain" style="display:flex; flex-wrap: wrap; gap:30px; justify-content: space-evenly; margin-top: 20px;">
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/Boy-1.png" class="card-img-top rounded-top" height="400px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mr. Naresh Mehta</h5>
+          <p class="card-text">Naresh Mehta is a senior web development trainer with over 8 years of experience in teaching and working with HTML.
+
+            He focuses on teaching the core structure of web pages using semantic and accessible markup.
+            
+            His classes include practical assignments on creating portfolios, landing pages, and responsive web designs.
+            
+            Arjun believes in teaching HTML as the "language of structure," ensuring students understand its long-term importance.
+            
+            He has conducted 50+ workshops in colleges across India on building websites from scratch.
+            
+            His portfolio includes collaborating with designers to build optimized, lightweight websites.
+            
+            Students appreciate his patient nature and knack for simplifying technical concepts.
+            
+            He also introduces learners to SEO basics and how proper HTML affects search rankings.
+            
+            Certified in Web Accessibility and actively contributes to open-source documentation.
+            
+            Teaches both beginners and intermediate learners aiming to build solid foundations.
+            
+            </p>
+        </div>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Sir Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/Girl-1.png" class="card-img-top rounded-top" height="400px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mis. Anjali Sharma</h5>
+          <p class="card-text">Anjali Sharma is a lead Python instructor with over 10 years of experience in software development and AI.
+
+            Her teaching spans core Python, data structures, OOP, file handling, and APIs.
+            
+            She also introduces Python for automation, data analysis, and basic machine learning.
+            
+            Sofia has worked with MNCs and integrates real-world use cases into her lessons.
+            
+            Her students range from school kids to working professionals and career switchers.
+            
+            She conducts live coding sessions, debugging tutorials, and mini-project builds.
+            
+            She’s known for making complex topics like decorators and generators easy to grasp.
+            
+            Sofia holds certifications from IBM and Google in AI, Python, and cloud computing.
+            
+            A big advocate of women in tech, she mentors female students in coding communities.
+            
+            Her goal is to equip students with industry-ready Python skills from day one.
+            
+            </p>
+        </div>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Mam's Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/Boy-2.png" class="card-img-top rounded-top" height="400px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dr. Vijay Mehra</h5>
+          <p class="card-text">Vijay Mehra is a front-end development expert specializing in React for over 6 years.
+
+            He teaches React concepts such as components, props, state, hooks, and routing.
+            
+            With a professional background in startups, Karan blends speed with code quality.
+            
+            His approach includes building real applications like to-do lists, weather apps, and dashboards.
+            
+            He guides learners through JSX, virtual DOM, and lifecycle methods with ease.
+            
+            Advanced learners benefit from his sessions on Redux, Context API, and performance tuning.
+            
+            He emphasizes best practices, scalability, and reusable component design.
+            
+            Karan is also a Git and CI/CD enthusiast and introduces modern deployment methods.
+            
+            He hosts monthly live coding challenges and hackathons for student engagement.
+            
+            Learners call him a “React ninja” for his clarity, energy, and real-world examples.</p>
+        </div>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Sir's Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/Girl-2.png" class="card-img-top rounded-top" height="400px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mis. Hitanshi Mam</h5>
+          <p class="card-text">Hitanshi is a design-centric front-end instructor with a passion for CSS artistry.
+
+            She teaches everything from the basics to advanced layouts, animations, and transitions.
+            
+            Her CSS courses explore Flexbox, Grid, media queries, and mobile-first designs.
+            
+            Riya specializes in turning dull UIs into visually stunning responsive interfaces.
+            
+            She gives special focus to color theory, typography, and accessibility in CSS.
+            
+            Students love her hands-on approach to teaching CSS through live Figma-to-code projects.
+            
+            She frequently introduces tools like Sass, Tailwind CSS, and keyframe animations.
+            
+            Her classes include CSS debugging, browser compatibility fixes, and performance tips.
+            
+            With over 7 years of experience, she’s taught over 3000 students worldwide.
+            
+            Riya’s mission is to help developers see CSS not just as a skill, but as an art form.</p>
+        </div>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Mam's Achivements</a>
+        </div>
+      </div>
+      <div class="card rounded" style="width:25rem;">
+        <img src="./images/Boy-3.png" class="card-img-top rounded-top" height="400px" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dr Dharmesh Bavsar Sir</h5>
+          <p class="card-text">Dharmesh Bavsar is a senior JavaScript educator with 9+ years of full-stack experience.
+
+            He teaches core JS concepts like closures, hoisting, scope, async/await, and promises.
+            
+            His classes cover DOM manipulation, events, ES6+, and browser APIs extensively.
+            
+            Nikhil is passionate about turning students into logical problem solvers using JS.
+            
+            He blends theoretical concepts with coding drills, challenges, and interactive quizzes.
+            
+            Learners build games, calculators, and API-integrated projects in his workshops.
+            
+            He also touches on debugging, performance optimization, and JS design patterns.
+            
+            Nikhil prepares students for interviews with deep dives into algorithms and DSA in JS.
+            
+            A frequent speaker at tech meetups, he’s known for simplifying even the trickiest JS bugs.
+            
+            He empowers learners to write clean, modern JavaScript ready for any framework.</p>
+        </div>
+        <div class="card-body">
+          <a href="./payment.html" class="btn btn-outline-success">Enroll Now</a>
+          <a href="#" class="btn btn-outline-danger">See Sir's Achivements</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <center>
+        <p style="margin-top: 50px;align-content: end;">...New Skilled & Experienced Mentor's Joining Us Soon...</p>
+        </center>
+              <!-- Customized Cursor Session Starts -->
+      <div class="cursor-dot" data-cursor-dot ></div>
+      <div class="cursor-outline" data-cursor-outline ></div> 
+    <!-- Customized Cursor Session Ends -->
+  
+      
+
+    </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  // Custome Cursor 
+const cursorDot = document.querySelector("[data-cursor-dot");
+const cursorOutline = document.querySelector("[data-cursor-outline");
+
+window.addEventListener("mousemove",function(e){
+  const posX = e.clientX;
+  const posY = e.clientY;
+  
+  cursorDot.style.left = `${posX}px`;
+  cursorDot.style.top = `${posY}px`;
+
+  // cursorOutline.style.left = `${posX}px`;
+  // cursorOutline.style.top = `${posY}px`;
+
+  cursorOutline.animate({
+      left : `${posX}px`,
+      top: `${posY}px`
+  },{duration:500, fill:"forwards"})
+
+});
+
+</script>
+
+</html>
